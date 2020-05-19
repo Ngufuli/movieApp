@@ -10,6 +10,10 @@ app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
 
+app.get('/results', (req, res)=>{
+    res.render('results');
+});
+
 app.get('/search', (req, res)=>{
     res.render('search');
 });
