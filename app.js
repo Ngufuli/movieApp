@@ -17,7 +17,7 @@ app.get('/results', (req, res)=>{
 
     request('https://api.themoviedb.org/3/search/movie?api_key=4522208f3671172e960d09695d85924d&query='+query, (error, response, body)=>{
         if(error){
-
+            console.log(error);
         }
 
         let data = JSON.parse(body);
