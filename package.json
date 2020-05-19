@@ -1,0 +1,32 @@
+{
+  "name": "movieapp",
+  "version": "1.0.0",
+  "description": "A movie app using api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ngufuli/movieApp.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "EJS",
+    "and",
+    "api's"
+  ],
+  "author": "Nicodemus Ngufuli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ngufuli/movieApp/issues"
+  },
+  "homepage": "https://github.com/Ngufuli/movieApp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
